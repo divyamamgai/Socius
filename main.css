@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Segoe UI", sans-serif-light, sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 200;
+}
+
+#MainFrame {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 35, 126);
+}
+
+#MicButton {
+    width: 256px;
+    height: 256px;
+    margin: 50vh 0 0 50vw;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#MicButton * {
+    cursor: pointer;
+}
+
+#ListenText {
+    color: #C5CAE9;
+    font-size: 5vh;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -10vh;
+}
+
+#ClickMeText {
+    color: #C5CAE9;
+    font-size: 3vh;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -10vh;
+    width: 100%;
+}
+
+.Emphasis {
+    color: #E91E63;
+    font-weight: 400;
+}
+
+.g-signin2 {
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+}
+
+.fb_reset {
+    position: absolute;
+}
+
+#FBbutton {
+    position: fixed;
+    top: 2vh;
+    right: 1vw;
+}
+
+#UserImage {
+    opacity: 0;
+    border-radius: 100%;
+    width: 100px;
+    margin: 0 0 0 50%;
+    -webkit-transform: translate(-50%, 25%);
+    -moz-transform: translate(-50%, 25%);
+    -ms-transform: translate(-50%, 25%);
+    -o-transform: translate(-50%, 25%);
+    transform: translate(-50%, 25%);
+    position: absolute;
+    border: 3px solid #E91E63;
+}
+
+#ListContainer {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: none;
+    overflow: auto;
+}
+
+.ListItem {
+    width: 80vw;
+    height: 10vh;
+    background-color: #1A237E;
+    border-radius: 3px;
+    margin: 2vh 0 0 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-box-shadow: 0 2vh 2vh rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 2vh 2vh rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2vh 2vh rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+
+.ListItem b {
+    font-size: 1.1em;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    top: 5px;
+    font-weight: 400;
+}
+
+.ListItem span {
+    margin: 10px;
+    position: relative;
+    top: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(100, 100, 100, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
